@@ -1,0 +1,83 @@
+body {
+    background-color: gray;
+}
+
+.layout {
+
+    width: 100%;
+    border-radius: 10px;
+    max-width: 1024px;
+
+    margin: auto;
+
+    background-color: white;
+
+    border-collapse: collapse;
+
+}
+
+
+
+.layout tr td {
+
+    padding: 20px;
+
+    vertical-align: top;
+
+    border: solid 1px gray;
+
+}
+
+
+
+.header {
+    font-size: 50px;
+
+}
+
+
+
+.footer {
+
+    text-align: center;
+
+}
+
+
+
+.sidebarHeader {
+    font-size: 20px;
+}
+
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    margin-left:25px;
+    transition: 0.4s;
+}
+
+button:hover {
+    transition: 0.4s;
+    background-color: white;
+    color: black;
+}
+
+
+a, a:visited {
+    color: blue;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: black;
+}
